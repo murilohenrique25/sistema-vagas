@@ -1,0 +1,92 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Environment files
+.env
+
+# IDE
+.idea/
+.vscode/
+
+# Testing
+.pytest_cache/
+htmlcov/
+.coverage
+coverage.xml
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# Alembic
+alembic/versions/__pycache__/
+
+# Repository hygiene (local artifacts and private configuration)
+
+# Local configuration and secrets (keep sanitized examples)
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+!.env.*.example
+!.env.*.sample
+!.env.*.template
+.envrc
+*.pem
+*.key
+*.ppk
+*.p12
+*.pfx
+*.jks
+*.keystore
+id_rsa
+id_ed25519
+credentials.json
+credentials.local.*
+service-account*.json
+service_account*.json
+*-firebase-adminsdk-*.json
+.npmrc.local
+# Local databases and runtime data
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+*.sqlite-journal
+*.sqlite3-journal
+dump.sql
+dump-*.sql
+dump_*.sql
+backup.sql
+backup-*.sql
+backup_*.sql
+backups/
+# Logs, reports and machine-specific files
+*.log
+logs/
+coverage/
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*.tmp
+*.bak
+
+# python dependencies and generated files
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage.*
+.eggs/

@@ -1,0 +1,415 @@
+História de Usuário (Epic)
+Epic: Plataforma Inteligente de Recrutamento e Seleção
+
+Como empresa contratante e profissional em busca de oportunidades,
+
+Quero utilizar uma plataforma centralizada para divulgar vagas, candidatar-me a oportunidades e utilizar recursos de inteligência artificial para facilitar a conexão entre candidatos e empregadores,
+
+Para reduzir o tempo de recrutamento e aumentar a assertividade das contratações.
+
+User Stories
+Módulo Empregador
+Cadastro de Vagas
+
+Como empregador
+
+Quero cadastrar uma vaga de emprego
+
+Para divulgar oportunidades para candidatos.
+
+Critérios de Aceite
+Informar título da vaga.
+Informar modalidade (Presencial, Híbrido ou Remoto).
+Informar localização.
+Informar descrição da empresa.
+Informar responsabilidades.
+Informar requisitos obrigatórios.
+Informar diferenciais.
+Informar salário ou faixa salarial.
+Informar regime de contratação.
+Informar benefícios.
+Informar prazo de encerramento da vaga.
+Gerenciamento de Vagas
+
+Como empregador
+
+Quero editar, duplicar, prorrogar ou inativar vagas
+
+Para facilitar a gestão dos processos seletivos.
+
+Critérios de Aceite
+Permitir edição.
+Permitir duplicação.
+Permitir inativação.
+Permitir extensão do prazo.
+Registrar histórico de alterações.
+Recebimento de Candidaturas
+
+Como empregador
+
+Quero receber notificações de novas candidaturas
+
+Para acompanhar candidatos interessados.
+
+Critérios de Aceite
+Notificação em sistema.
+Contador de candidaturas pendentes.
+Visualização de todos os candidatos da vaga.
+Gestão de Candidatos
+
+Como empregador
+
+Quero aprovar, rejeitar ou cancelar candidaturas
+
+Para controlar o andamento do processo seletivo.
+
+Status possíveis
+Recebida
+Em análise
+Entrevista
+Aprovado
+Reprovado
+Cancelada
+IA para Análise de Candidatos
+
+Como empregador
+
+Quero utilizar IA para analisar currículos
+
+Para identificar os candidatos mais aderentes à vaga.
+
+Critérios de Aceite
+Consumo de tokens.
+IA compara currículo x vaga.
+Geração de score de aderência.
+Ranking dos candidatos.
+Justificativa da análise.
+Decisão final permanece com o recrutador.
+Módulo Empregado
+Cadastro de Currículo
+
+Como candidato
+
+Quero cadastrar meu currículo manualmente
+
+Para me candidatar às vagas.
+
+Critérios de Aceite
+Dados pessoais.
+Formação.
+Experiência profissional.
+Habilidades.
+Certificações.
+Idiomas.
+Importação de Currículo
+
+Como candidato
+
+Quero enviar um PDF do meu currículo
+
+Para preencher meus dados automaticamente.
+
+Critérios de Aceite
+Upload PDF.
+Extração por IA.
+Pré-preenchimento dos campos.
+Usuário confirma ou corrige dados.
+Buscar Vagas
+
+Como candidato
+
+Quero visualizar vagas abertas
+
+Para encontrar oportunidades compatíveis.
+
+Critérios de Aceite
+Listagem de vagas ativas.
+Filtros.
+Busca textual.
+Ordenação.
+Candidatar-se
+
+Como candidato
+
+Quero me candidatar a uma vaga
+
+Para participar do processo seletivo.
+
+Critérios de Aceite
+Um clique para candidatura.
+Confirmação da candidatura.
+Registro da data.
+Acompanhamento
+
+Como candidato
+
+Quero acompanhar minhas candidaturas
+
+Para saber em qual etapa estou.
+
+Critérios de Aceite
+Lista de candidaturas.
+Status atualizado.
+Histórico de movimentações.
+Opção de cancelar candidatura.
+IA para Encontrar Vagas
+
+Como candidato
+
+Quero analisar vagas com IA
+
+Para descobrir quais vagas possuem maior aderência ao meu perfil.
+
+Critérios de Aceite
+Consumo de tokens.
+Comparação currículo x vagas.
+Ranking de aderência.
+Justificativas.
+Sugestões de melhoria no currículo.
+Sistema de Tokens
+Compra de Tokens
+
+Como usuário
+
+Quero comprar tokens
+
+Para utilizar funcionalidades premium.
+
+Formas de pagamento
+PIX
+Cartão de Crédito
+Utilização dos Tokens
+Funcionalidade	Consumo
+Análise IA de Currículos	Configurável
+Análise IA de Vagas	Configurável
+Destaque de Vaga	Configurável
+Prorrogação Premium	Configurável
+PRD — Product Requirements Document
+PRD - Plataforma Inteligente de Vagas e Recrutamento
+Visão Geral
+
+Desenvolver uma plataforma web para conexão entre empregadores e candidatos, permitindo publicação de vagas, gestão de processos seletivos e utilização de inteligência artificial para aumentar a assertividade na contratação.
+
+Objetivos do Produto
+Para Empresas
+Publicar vagas rapidamente.
+Receber candidaturas qualificadas.
+Automatizar triagem inicial.
+Reduzir tempo de contratação.
+Para Candidatos
+Encontrar oportunidades aderentes ao perfil.
+Candidatar-se facilmente.
+Acompanhar processos seletivos.
+Receber recomendações inteligentes.
+Perfis de Usuário
+Empregador
+
+Responsável por:
+
+Publicar vagas
+Gerenciar vagas
+Gerenciar candidaturas
+Utilizar IA de triagem
+Comprar tokens
+Empregado
+
+Responsável por:
+
+Criar currículo
+Importar currículo PDF
+Candidatar-se
+Acompanhar processos
+Utilizar IA para encontrar vagas
+Administrador
+
+Responsável por:
+
+Gestão completa do sistema
+Gestão de usuários
+Gestão de vagas
+Gestão de assinaturas
+Gestão financeira
+Gestão de tokens
+Módulo de Vagas
+Estrutura da Vaga
+Cabeçalho
+Título da vaga
+Modalidade
+Localização
+Data de publicação
+Data de encerramento
+Sobre a Empresa
+Descrição institucional
+Responsabilidades
+
+Lista de atividades.
+
+Requisitos Obrigatórios
+
+Lista de requisitos mandatórios.
+
+Diferenciais
+
+Lista de requisitos desejáveis.
+
+Remuneração
+Salário
+Faixa salarial
+Tipo contratação
+Benefícios
+
+Lista de benefícios.
+
+Gestão de Vagas
+
+Ações permitidas:
+
+Criar
+Editar
+Duplicar
+Inativar
+Reativar
+Prorrogar
+Currículo Inteligente
+Cadastro Manual
+
+Campos estruturados:
+
+Dados pessoais
+Formação
+Experiências
+Habilidades
+Certificações
+Idiomas
+Importação PDF
+
+Fluxo:
+
+Upload do PDF.
+Extração dos dados via IA.
+Preenchimento automático.
+Validação do usuário.
+Processo de Candidatura
+
+Fluxo:
+
+Visualizar vaga.
+Candidatar-se.
+Registro da candidatura.
+Notificação ao empregador.
+Workflow da Candidatura
+
+Status:
+
+Recebida
+Em análise
+Entrevista
+Teste técnico
+Proposta
+Contratado
+Reprovado
+Cancelado
+Inteligência Artificial
+IA para Empregador
+
+Objetivo:
+
+Classificar candidatos conforme aderência à vaga.
+
+Entradas:
+
+Currículo
+Experiência
+Formação
+Habilidades
+Requisitos da vaga
+
+Saídas:
+
+Score de aderência
+Ranking
+Pontos fortes
+Pontos de atenção
+IA para Empregado
+
+Objetivo:
+
+Encontrar vagas aderentes ao perfil.
+
+Entradas:
+
+Currículo
+Histórico profissional
+Competências
+
+Saídas:
+
+Ranking de vagas
+Percentual de compatibilidade
+Sugestões de melhoria
+Sistema de Tokens
+
+Funcionalidades monetizadas:
+
+Destaque de Vagas
+
+Permite aparecer:
+
+Página inicial
+Primeiras posições da busca
+Sessão "Vagas em Destaque"
+Análises por IA
+
+Consumo de tokens por execução.
+
+Compra de Tokens
+
+Métodos:
+
+PIX
+Cartão de Crédito
+Painel Administrativo
+
+Funcionalidades:
+
+Gestão de usuários
+Gestão de empresas
+Gestão de vagas
+Gestão de candidaturas
+Gestão de tokens
+Gestão de pagamentos
+Auditoria de ações
+Métricas do Produto
+
+KPIs:
+
+Vagas publicadas
+Candidaturas realizadas
+Taxa de contratação
+Receita com tokens
+Uso das funcionalidades IA
+Tempo médio de contratação
+Possíveis Evoluções Futuras
+Chat entre candidato e empresa.
+Entrevista por vídeo.
+IA para geração automática de descrição de vagas.
+IA para revisão de currículos.
+Assinatura mensal para empresas.
+API pública para integração com ERPs e RHs.
+Aplicativo mobile Android/iOS.
+Sugestão de Monetização
+
+Além dos tokens, eu adicionaria:
+
+Plano Gratuito
+3 vagas ativas.
+Sem IA.
+Plano Profissional
+Vagas ilimitadas.
+Alguns créditos de IA.
+Plano Enterprise
+IA ilimitada.
+Destaques inclusos.
+Dashboard avançado.
+
+Isso gera receita recorrente (assinatura) e receita variável (tokens), o que costuma funcionar melhor do que depender apenas da venda de tokens.

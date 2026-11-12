@@ -1,0 +1,11 @@
+{
+  "name": "Recruta IA",
+  "short_name": "Recruta IA",
+  "description": "Vagas em Caldas Novas e região, candidaturas e recrutamento inteligente.",
+  "lang": "pt-BR",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f7f9fc",
+  "theme_color": "#1a237e",
+  "icons": [{ "src": "/brand-icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }]
+}
